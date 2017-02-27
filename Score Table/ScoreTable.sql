@@ -36,8 +36,6 @@ declare
     finalPct WEIGHTS.FinPct%type;
     homeworkPct WEIGHTS.HWPct%type;
     
-    -- studentID STUDENT.ID%type;
-    -- studentName STUDENT.Name%type;
     studentScore NUMBER(4,1);
     studentGrade CHAR(1);
     
@@ -49,10 +47,10 @@ begin
     INTO midtermPct, finalPct, homeworkPct
     FROM WEIGHTS;
     
--- Report the three weights found in the WEIGHTS table
+    -- Report the three weights found in the WEIGHTS table
     DBMS_OUTPUT.PUT_LINE('Weights are '||midtermPct||', '||finalPct||', '||homeworkPct);
 
--- Output the ID and name of each student, with their overall score and a letter grade(90-100=A, 80-89.99=B, 65-79.99=C, 0-64.99=F)
+    -- Output the ID and name of each student, with their overall score and a letter grade(90-100=A, 80-89.99=B, 65-79.99=C, 0-64.99=F)
     for studentInfo in studentPtr
     loop 
         studentScore:= (studentInfo.Midterm*midtermPct + studentInfo.Final*finalPct + studentInfo.Homework*homeworkPct)/100;
