@@ -6,6 +6,7 @@ The ContractCount attribute of JOB stores a count of how many workers have signe
 
 – that is, the number of records in CONTRACT with that JobID – and its value should never exceed 4.  
 
+
 There are three triggers written to maintain the value of the ContractCount attribute in JOB as changes are made to the CONTRACT table.
 
 ## 1.NewContract
