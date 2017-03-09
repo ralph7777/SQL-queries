@@ -1,6 +1,7 @@
 # Order database
 
-This is a commodity transaction database example recording the order and various entities by a furniture company. 
+This script builds a commodity transaction database recording the order and various entities by a furniture company. 
+
 
 In the database, the constraints of value field include:
 

@@ -1,6 +1,6 @@
 # Student Score Table
 
-This is an script example of using TRIGGER in PL/SQL to manipulate contract database of a company.
+This program is an example of using TRIGGER in PL/SQL script to manipulate contract database of a company.
 
 The ContractCount attribute of JOB stores a count of how many workers have signed contracts to work on that job
 

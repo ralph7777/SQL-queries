@@ -1,10 +1,14 @@
 # Student Score Table
 
-This is an script example of using PL/SQL language to report student scores according to information in certain tables.
+This program is to report student scores according to information in certain tables, using script in PL/SQL.
+
+
+There are two established tables:
 
 1. The table STUDENT has attributes ID, Name, Midterm, Final, and Homework;
 
 2. The table WEIGHTS has attributes MidPct, FinPct, and HWPct;
+
 
 The script file containing an anonymous PL/SQL block does the following:  
 
