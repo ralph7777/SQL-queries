@@ -24,11 +24,16 @@ For example:
 
 Section 33333:
 
-A’s:    2
+A’s:  2
+
 B’s:	0
+
 C’s:	1
+
 D’s:	1
+
 F’s:	0
+
 Total grades: 4
 
 
