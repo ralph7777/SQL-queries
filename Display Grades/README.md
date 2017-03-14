@@ -23,7 +23,7 @@ and compute and display the number of occurrences of each letter grade in the se
 For example:
 
 Section 33333:
---------------
+
 A’s:    2
 B’s:	0
 C’s:	1
